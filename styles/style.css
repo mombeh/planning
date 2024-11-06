@@ -2,6 +2,7 @@
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+   box-sizing: border-box;
 }
 
 body {
@@ -9,7 +10,8 @@ body {
 }
 
 #hero-section {
-    padding: 1em;
+    padding: 2em;
+    background-color: #f7f5f5;
 }
 
 .container {
@@ -30,6 +32,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #fff;
 }
 
 .nav-bar  {
@@ -66,12 +69,19 @@ ul {
 
 .main {
     width: 100%;
+    background-color: #f5ebeb;
+}
 
+.view {
+    color: #979090;
 }
 
 .certain {
     display: grid;
     grid-template-columns: 50% 50%;
+    background-color: #fff;
+    gap: 0.5rem;
+    padding: 2rem;
 }
 
 .btn {
@@ -84,23 +94,28 @@ ul {
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    background-color: #fff;
+    padding: 3rem;
 }
 
 .certainty {
     display: grid;
-    
+    background-color: #f5f0f0;
+    border-radius: 13px;
 }
 
 button {
     border-radius: 5rem;
     padding: 5px;
     text-align: center;
+    background-color: #f9f5f5;
 
 }
 
 .pages {
     display: grid;
-   
+    background-color: #f5f0f0;
+    border-radius: 13px;
 }
 
 .certainty-three {
@@ -113,8 +128,8 @@ button {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 2rem;
+    padding: 2rem;
 }
 
 .enter-tain {
@@ -122,6 +137,25 @@ button {
     display: grid;
     grid-template-columns: 65% 35% ;
     border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.patient {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.alone {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.sport {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 8px;
 }
 
 .port {
@@ -153,13 +187,16 @@ button,
     margin-bottom: 15px;
     border-radius: 10px;
     color: #fff;
+    padding: 0.5rem;
+    margin: 0.5rem;
 
 }
 
 .progres {
     display: grid;
     grid-template-columns: 50% 50%;
-    justify-content: ;
+    gap: 10px;
+    margin-bottom: 1rem;
 }
 
 .fun {
@@ -177,39 +214,63 @@ button,
 }
 
 .avoid {
+    height: 20%;
+    width: 20%;
     border-radius: 25rem;
 }
 
 .var {
-    border-radius: 70rem;
-    box-sizing: 23rem;
+    height: 20%;
+    width: 20%;
+    border-radius: 25rem;
 }
 
 .vas {
-    border-radius: 30rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 
 .fa-circle-xmark {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .fa-square-instagram {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .fa-facebook {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .recomment {
     display: grid;
     grid-template-columns: 50% 50%;
-    font-size: 25px;
+    font-size: 19px;
     justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+.paragraph {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.opm {
+     width: 100%;
+    border-radius: 15px;
+}
+
+.power-bar {
+    background-color: #ebd5d5;
+    margin: 2rem;
 }
 
 span {
-   
+   color: #9b9494;
 }
 
 .change {
@@ -221,18 +282,23 @@ span {
 .frequency {
     display: grid;
     grid-template-columns: 45% 50%;
+    margin: 1rem;
+    padding: 3rem;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
-.forever {
+.forver {
     display: block;
-    b
 }
 
 .applications {
     text-align: center;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
     background-color:  #f37d52;
+    padding: 4rem;
 }
 
 .button {
@@ -249,7 +315,8 @@ span {
 .conclude {
     display: flex;
     justify-content: space-between;
-    font-size: 25px;
+    font-size: 18px;
+    padding: 1rem;
 }
 
 
@@ -260,25 +327,38 @@ span {
 
 .congrats {
     box-shadow: 0 4px 4px #bab;
+    width: 100%;
     border-radius: 15px;
 }
 
 .welcome {
     box-shadow: 0 4px 4px #bab;
+    width: 100%;
     border-radius: 15px;
 }
 
 .handsome {
     box-shadow: 0 4px 4px #bab;
+    width: 100%;
     border-radius: 15px;
+}
+
+.menu-b {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 3rem;
+ 
 }
 
 .beauty {
     box-shadow: 0 4px 4px #bab;
+    width: 100%;
     border-radius: 15px;
 }
 
 .favor {
     box-shadow: 0 4px 4px #bab;
+    width: 100%;
     border-radius: 15px;
 }
